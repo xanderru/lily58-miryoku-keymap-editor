@@ -197,6 +197,114 @@
             quick-tap-ms = <0>;
             flavor = "tap-preferred";
         };
+
+        game_fkey1: game_fkey1 {
+            compatible = "zmk,behavior-mod-morph";
+            label = "GAME_FKEY1";
+            bindings = <&kp NUMBER_1>, <&kp F1>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LALT)>;
+        };
+
+        game_fkey2: game_fkey2 {
+            compatible = "zmk,behavior-mod-morph";
+            label = "GAME_FKEY2";
+            bindings = <&kp NUMBER_2>, <&kp F2>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LALT)>;
+        };
+
+        game_fkey3: game_fkey3 {
+            compatible = "zmk,behavior-mod-morph";
+            label = "GAME_FKEY3";
+            bindings = <&kp NUMBER_3>, <&kp F3>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LALT)>;
+        };
+
+        game_fkey4: game_fkey4 {
+            compatible = "zmk,behavior-mod-morph";
+            label = "GAME_FKEY4";
+            bindings = <&kp NUMBER_4>, <&kp F4>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LALT)>;
+        };
+
+        game_fkey5: game_fkey5 {
+            compatible = "zmk,behavior-mod-morph";
+            label = "GAME_FKEY5";
+            bindings = <&kp NUMBER_5>, <&kp F5>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LALT)>;
+        };
+
+        game_fkey6: game_fkey6 {
+            compatible = "zmk,behavior-mod-morph";
+            label = "GAME_FKEY6";
+            bindings = <&kp NUMBER_6>, <&kp F6>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LALT)>;
+        };
+
+        game_fkey7: game_fkey7 {
+            compatible = "zmk,behavior-mod-morph";
+            label = "GAME_FKEY7";
+            bindings = <&kp NUMBER_7>, <&kp F7>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LALT)>;
+        };
+
+        game_fkey8: game_fkey8 {
+            compatible = "zmk,behavior-mod-morph";
+            label = "GAME_FKEY8";
+            bindings = <&kp NUMBER_8>, <&kp F8>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LALT)>;
+        };
+
+        game_fkey9: game_fkey9 {
+            compatible = "zmk,behavior-mod-morph";
+            label = "GAME_FKEY9";
+            bindings = <&kp NUMBER_9>, <&kp F9>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LALT)>;
+        };
+
+        game_fkey10: game_fkey10 {
+            compatible = "zmk,behavior-mod-morph";
+            label = "GAME_FKEY10";
+            bindings = <&kp NUMBER_0>, <&kp F10>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LALT)>;
+        };
+
+        game_fkey11: game_fkey11 {
+            compatible = "zmk,behavior-mod-morph";
+            label = "GAME_FKEY11";
+            bindings = <&kp ESCAPE>, <&kp F11>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LALT)>;
+        };
+
+        game_fkey12: game_fkey12 {
+            compatible = "zmk,behavior-mod-morph";
+            label = "GAME_FKEY12";
+            bindings = <&kp GRAVE>, <&kp F12>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LALT)>;
+        };
     };
 
     combos {
@@ -252,11 +360,11 @@
         BASE {
             display-name = "Base";
             bindings = <
-&kp ESC         &auto_shift EXCL NUMBER_1      &auto_shift AT_SIGN NUMBER_2   &auto_shift HASH NUMBER_3   &auto_shift DOLLAR NUMBER_4      &auto_shift PERCENT N5                            &auto_shift CARET NUMBER_6  &auto_shift AMPS NUMBER_7         &auto_shift ASTRK NUMBER_8          &auto_shift LEFT_PARENTHESIS NUMBER_9  &auto_shift RIGHT_PARENTHESIS NUMBER_0  &kp BACKSPACE
-&kp TAB         &kp Q                          &kp W                          &kp F                       &kp P                            &kp B                                             &kp J                       &kp L                             &kp U                               &kp Y                                  &kp SQT                                 &kp BACKSLASH
-&kp LEFT_SHIFT  &home_row_mod_left LEFT_GUI A  &home_row_mod_left LEFT_ALT R  &home_row_mod_left LCTRL S  &home_row_mod_left LEFT_SHIFT T  &kp G                                             &kp M                       &home_row_mod_right LEFT_SHIFT N  &home_row_mod_right LEFT_CONTROL E  &home_row_mod_right LEFT_ALT I         &home_row_mod_right LEFT_GUI O          &kp SEMI
-&kp LCTRL       &lt 3 Z                        &home_row_mod_left RALT X      &kp C                       &kp D                            &kp V                   &kp LC(C)    &kp LC(V)    &kp K                       &kp H                             &kp COMMA                           &home_row_mod_right RALT DOT           &lt 3 FSLH                              &kp GRAVE
-                                                                              &kp LC(Z)                   &lt 6 ESCAPE                     &lt 4 SPACE             &lt 5 TAB    &lt 8 ENTER  &lt 7 BACKSPACE             &lt 9 DELETE                      &kp LC(Y)
+&kp ESC         &kp NUMBER_1                   &kp NUMBER_2                   &kp NUMBER_3                &kp NUMBER_4                     &kp NUMBER_5                            &kp NUMBER_6     &kp NUMBER_7                      &kp NUMBER_8                        &kp NUMBER_9                    &kp NUMBER_0                    &kp GRAVE
+&kp TAB         &kp Q                          &kp W                          &kp F                       &kp P                            &kp B                                   &kp J            &kp L                             &kp U                               &kp Y                           &kp SQT                         &kp BACKSLASH
+&kp LEFT_SHIFT  &home_row_mod_left LEFT_GUI A  &home_row_mod_left LEFT_ALT R  &home_row_mod_left LCTRL S  &home_row_mod_left LEFT_SHIFT T  &kp G                                   &kp M            &home_row_mod_right LEFT_SHIFT N  &home_row_mod_right LEFT_CONTROL E  &home_row_mod_right LEFT_ALT I  &home_row_mod_right LEFT_GUI O  &kp SEMI
+&kp LCTRL       &lt 3 Z                        &home_row_mod_left RALT X      &kp C                       &kp D                            &kp V         &kp LC(C)    &kp LC(V)    &kp K            &kp H                             &kp COMMA                           &home_row_mod_right RALT DOT    &lt 3 FSLH                      &kp GRAVE
+                                                                              &kp LC(Z)                   &lt 6 ESCAPE                     &lt 4 SPACE   &lt 5 TAB    &lt 8 ENTER  &lt 7 BACKSPACE  &lt 9 DELETE                      &kp LC(Y)
             >;
 
             label = "Base";
@@ -265,11 +373,11 @@
         EXTRA {
             display-name = "Extra";
             bindings = <
-&kp ESC         &auto_shift EXCL NUMBER_1      &auto_shift AT NUMBER_2        &auto_shift HASH NUMBER_3   &auto_shift DOLLAR NUMBER_4      &auto_shift PERCENT N5                            &auto_shift CARET NUMBER_6  &auto_shift AMPS N7               &auto_shift STAR NUMBER_8           &auto_shift LEFT_PARENTHESIS NUMBER_9  &auto_shift RIGHT_PARENTHESIS NUMBER_0  &kp BACKSPACE
-&kp TAB         &kp Q                          &kp W                          &kp E                       &kp R                            &kp T                                             &kp Y                       &kp U                             &kp I                               &kp O                                  &kp P                                   &kp BACKSLASH
-&kp LEFT_SHIFT  &home_row_mod_left LEFT_GUI A  &home_row_mod_left LEFT_ALT S  &home_row_mod_left LCTRL D  &home_row_mod_left LEFT_SHIFT F  &kp G                                             &kp H                       &home_row_mod_right LEFT_SHIFT J  &home_row_mod_right LEFT_CONTROL K  &home_row_mod_right LEFT_ALT L         &home_row_mod_right LEFT_GUI SQT        &kp SEMICOLON
-&kp LCTRL       &lt 3 Z                        &home_row_mod_left RALT X      &kp C                       &kp V                            &kp B                   &kp LC(C)    &kp LC(V)    &kp N                       &kp M                             &kp COMMA                           &home_row_mod_right RALT DOT           &lt 3 FSLH                              &kp GRAVE
-                                                                              &kp LC(Z)                   &lt 6 ESCAPE                     &lt 4 SPACE             &lt 5 TAB    &lt 8 ENTER  &lt 7 BACKSPACE             &lt 9 DELETE                      &kp LC(Y)
+&kp ESC         &kp NUMBER_1                   &kp NUMBER_2                   &kp NUMBER_3                &kp NUMBER_4                     &kp NUMBER_5                            &kp NUMBER_6     &kp NUMBER_7                      &kp NUMBER_8                        &kp NUMBER_9                    &kp NUMBER_0                      &kp GRAVE
+&kp TAB         &kp Q                          &kp W                          &kp E                       &kp R                            &kp T                                   &kp Y            &kp U                             &kp I                               &kp O                           &kp P                             &kp BACKSLASH
+&kp LEFT_SHIFT  &home_row_mod_left LEFT_GUI A  &home_row_mod_left LEFT_ALT S  &home_row_mod_left LCTRL D  &home_row_mod_left LEFT_SHIFT F  &kp G                                   &kp H            &home_row_mod_right LEFT_SHIFT J  &home_row_mod_right LEFT_CONTROL K  &home_row_mod_right LEFT_ALT L  &home_row_mod_right LEFT_GUI SQT  &kp SEMICOLON
+&kp LCTRL       &lt 3 Z                        &home_row_mod_left RALT X      &kp C                       &kp V                            &kp B         &kp LC(C)    &kp LC(V)    &kp N            &kp M                             &kp COMMA                           &home_row_mod_right RALT DOT    &lt 3 FSLH                        &kp GRAVE
+                                                                              &kp LC(Z)                   &lt 6 ESCAPE                     &lt 4 SPACE   &lt 5 TAB    &lt 8 ENTER  &lt 7 BACKSPACE  &lt 9 DELETE                      &kp LC(Y)
             >;
 
             label = "Extra";
@@ -278,11 +386,11 @@
         GAME {
             display-name = "Game";
             bindings = <
-&kp ESC         &mt F1 NUMBER_1  &mt F2 NUMBER_2  &mt F3 NUMBER_3  &mt F4 NUMBER_4  &mt F5 NUMBER_5                            &mt F6 NUMBER_6  &mt F7 NUMBER_7  &mt F8 NUMBER_8  &mt F9 NUMBER_9  &mt F10 NUMBER_0  &kp BACKSPACE
-&kp TAB         &kp Q            &kp W            &kp E            &kp R            &kp T                                      &kp Y            &kp U            &kp I            &kp O            &kp P             &kp BACKSLASH
-&kp LEFT_SHIFT  &kp A            &kp S            &kp D            &kp F            &kp G                                      &kp H            &kp J            &kp K            &kp L            &kp SEMICOLON     &kp SQT
-&kp LCTRL       &kp Z            &kp X            &kp C            &kp V            &kp B            &mkp MB5    &u_to_U_base  &kp N            &kp M            &kp COMMA        &kp DOT          &kp SLASH         &kp RSHFT
-                                                  &kp LEFT_GUI     &kp ESCAPE       &kp SPACE        &mkp MB4    &kp ENTER     &kp BACKSPACE    &kp DEL          &kp LA(TAB)
+&game_fkey11    &game_fkey1  &game_fkey2  &game_fkey3   &game_fkey4   &game_fkey5                            &game_fkey6    &game_fkey7  &game_fkey8  &game_fkey9  &game_fkey10   &game_fkey12
+&kp TAB         &kp Q        &kp W        &kp E         &kp R         &kp T                                  &kp Y          &kp U        &kp I        &kp O        &kp P          &kp BACKSLASH
+&kp LEFT_SHIFT  &kp A        &kp S        &kp D         &kp F         &kp G                                  &kp H          &kp J        &kp K        &kp L        &kp SEMICOLON  &kp SQT
+&kp LCTRL       &kp Z        &kp X        &kp C         &kp V         &kp B        &mkp MB5    &u_to_U_base  &kp N          &kp M        &kp COMMA    &kp DOT      &kp SLASH      &kp RSHFT
+                                          &kp LEFT_GUI  &kp LEFT_ALT  &kp SPACE    &mkp MB4    &kp ENTER     &kp BACKSPACE  &kp DEL      &kp LA(TAB)
             >;
 
             label = "Game";
@@ -343,11 +451,11 @@
         NUM {
             display-name = "Num";
             bindings = <
-&none  &kp LEFT_BRACKET  &kp LEFT_PARENTHESIS         &kp UNDER                  &kp RIGHT_PARENTHESIS                  &kp RIGHT_BRACKET                                           &none  &none           &none         &none            &none          &none
-&none  &kp CARET         &auto_shift AMPS NUMBER_7    &auto_shift STAR NUMBER_8  &auto_shift LEFT_PARENTHESIS NUMBER_9  &kp ASTERISK                                                &none  &u_to_U_base    &u_to_U_game  &u_to_U_tapcmdh  &u_bootloader  &none
-&none  &kp SEMICOLON     &auto_shift DOLLAR NUMBER_4  &auto_shift PERCENT N5     &auto_shift CARET NUMBER_6             &kp EQUAL                                                   &none  &kp LEFT_SHIFT  &kp LCTRL     &kp LEFT_ALT     &kp LEFT_GUI   &none
-&none  &kp GRAVE         &auto_shift EXCL NUMBER_1    &auto_shift AT NUMBER_2    &auto_shift HASH NUMBER_3              &kp BACKSLASH                           &kp PLUS     &none  &none  &u_to_U_num     &u_to_U_nav   &kp RALT         &none          &none
-                                                      &none                      &kp PERIOD                             &auto_shift RIGHT_PARENTHESIS NUMBER_0  &kp MINUS    &none  &none  &none           &none
+&none  &kp LEFT_BRACKET  &kp LEFT_PARENTHESIS  &kp UNDER     &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET                      &none  &none           &none         &none            &none          &none
+&none  &kp CARET         &kp NUMBER_7          &kp NUMBER_8  &kp NUMBER_9           &kp ASTERISK                           &none  &u_to_U_base    &u_to_U_game  &u_to_U_tapcmdh  &u_bootloader  &none
+&none  &kp SEMICOLON     &kp NUMBER_4          &kp NUMBER_5  &kp NUMBER_6           &kp EQUAL                              &none  &kp LEFT_SHIFT  &kp LCTRL     &kp LEFT_ALT     &kp LEFT_GUI   &none
+&none  &kp GRAVE         &kp NUMBER_1          &kp NUMBER_2  &kp NUMBER_3           &kp BACKSLASH      &kp PLUS     &none  &none  &u_to_U_num     &u_to_U_nav   &kp RALT         &none          &none
+                                               &none         &kp PERIOD             &kp NUMBER_0       &kp MINUS    &none  &none  &none           &none
             >;
 
             label = "Num";
