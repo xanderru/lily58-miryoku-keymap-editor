@@ -438,7 +438,7 @@
         MEDIA {
             display-name = "Media";
             bindings = <
-&none  &none          &none            &none         &none           &none                       &none              &none        &none                 &none                 &none        &none
+&none  &none          &none            &none         &none           &none                       &none              &none        &none                 &none                 &none        &bt BT_CLR_ALL
 &none  &u_bootloader  &u_to_U_tapcmdh  &u_to_U_game  &u_to_U_base    &none                       &kp LG(TAB)        &kp LG(E)    &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &none        &none
 &none  &kp LEFT_GUI   &kp LEFT_ALT     &kp LCTRL     &kp LEFT_SHIFT  &none                       &ext_power EP_TOG  &kp C_PREV   &kp C_VOL_DN          &kp C_VOL_UP          &kp C_NEXT   &none
 &none  &none          &kp RALT         &u_to_U_fun   &u_to_U_media   &none  &none    &none       &u_out_tog         &u_bt_sel_0  &u_bt_sel_1           &u_bt_sel_2           &u_bt_sel_3  &u_bt_sel_4
