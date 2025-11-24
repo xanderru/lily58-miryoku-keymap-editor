@@ -204,7 +204,7 @@
             bindings = <&kp NUMBER_1>, <&kp F1>;
 
             #binding-cells = <0>;
-            mods = <(MOD_LALT)>;
+            mods = <(MOD_LALT|MOD_LCTL)>;
         };
 
         game_fkey2: game_fkey2 {
@@ -213,7 +213,7 @@
             bindings = <&kp NUMBER_2>, <&kp F2>;
 
             #binding-cells = <0>;
-            mods = <(MOD_LALT)>;
+            mods = <(MOD_LALT|MOD_LCTL)>;
         };
 
         game_fkey3: game_fkey3 {
@@ -222,7 +222,7 @@
             bindings = <&kp NUMBER_3>, <&kp F3>;
 
             #binding-cells = <0>;
-            mods = <(MOD_LALT)>;
+            mods = <(MOD_LALT|MOD_LCTL)>;
         };
 
         game_fkey4: game_fkey4 {
@@ -231,7 +231,7 @@
             bindings = <&kp NUMBER_4>, <&kp F4>;
 
             #binding-cells = <0>;
-            mods = <(MOD_LALT)>;
+            mods = <(MOD_LALT|MOD_LCTL)>;
         };
 
         game_fkey5: game_fkey5 {
@@ -240,7 +240,7 @@
             bindings = <&kp NUMBER_5>, <&kp F5>;
 
             #binding-cells = <0>;
-            mods = <(MOD_LALT)>;
+            mods = <(MOD_LALT|MOD_LCTL)>;
         };
 
         game_fkey6: game_fkey6 {
@@ -249,7 +249,7 @@
             bindings = <&kp NUMBER_6>, <&kp F6>;
 
             #binding-cells = <0>;
-            mods = <(MOD_LALT)>;
+            mods = <(MOD_LALT|MOD_LCTL)>;
         };
 
         game_fkey7: game_fkey7 {
@@ -258,7 +258,7 @@
             bindings = <&kp NUMBER_7>, <&kp F7>;
 
             #binding-cells = <0>;
-            mods = <(MOD_LALT)>;
+            mods = <(MOD_LALT|MOD_LCTL)>;
         };
 
         game_fkey8: game_fkey8 {
@@ -267,7 +267,7 @@
             bindings = <&kp NUMBER_8>, <&kp F8>;
 
             #binding-cells = <0>;
-            mods = <(MOD_LALT)>;
+            mods = <(MOD_LALT|MOD_LCTL)>;
         };
 
         game_fkey9: game_fkey9 {
@@ -276,7 +276,7 @@
             bindings = <&kp NUMBER_9>, <&kp F9>;
 
             #binding-cells = <0>;
-            mods = <(MOD_LALT)>;
+            mods = <(MOD_LALT|MOD_LCTL)>;
         };
 
         game_fkey10: game_fkey10 {
@@ -285,7 +285,7 @@
             bindings = <&kp NUMBER_0>, <&kp F10>;
 
             #binding-cells = <0>;
-            mods = <(MOD_LALT)>;
+            mods = <(MOD_LALT|MOD_LCTL)>;
         };
 
         game_fkey11: game_fkey11 {
@@ -294,7 +294,7 @@
             bindings = <&kp ESCAPE>, <&kp F11>;
 
             #binding-cells = <0>;
-            mods = <(MOD_LALT)>;
+            mods = <(MOD_LALT|MOD_LCTL)>;
         };
 
         game_fkey12: game_fkey12 {
@@ -303,7 +303,7 @@
             bindings = <&kp GRAVE>, <&kp F12>;
 
             #binding-cells = <0>;
-            mods = <(MOD_LALT)>;
+            mods = <(MOD_LALT|MOD_LCTL)>;
         };
     };
 
